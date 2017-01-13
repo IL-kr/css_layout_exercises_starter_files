@@ -1,4 +1,9 @@
+body * {
+    box-sizing: border-box;
+}
+
 .container{
+	margin-top: 100px;
 	width: 800px;
   	height: 500px;
   	margin-left: auto;
@@ -8,7 +13,6 @@
 .top{ height: 200px; } /* comment this line u'll see what it fixes */
 
 .top-box{
-	display: inline-block;
 	width: 50%;
 	height: 200px;
 	font-size: 0;
@@ -16,9 +20,11 @@
 .bottom-box{
 	width: calc(100%/3);
 	height: 300px;
+}
+.box{ 
+	border: 1px solid black;
 	display: inline-block;
 }
-.box{ border: 1px solid black; }
 .green{ background: green; }
 .blue{ background-color: blue; }
 .grey{ background-color: grey; }
